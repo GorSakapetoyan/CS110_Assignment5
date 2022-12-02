@@ -80,7 +80,7 @@ function trim(text) {
   let temp = "";
 
   let start = 0;
-  let end = text.length;
+  let end = text.length-1;
   for (let i = 0; i < text.length; i++) {
     if (text[i] != " ") {
       start = i;
